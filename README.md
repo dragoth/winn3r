@@ -19,6 +19,16 @@ Milestones
 - Send and receive streaming audio data (via Speex) to and from a connected peer
 - Send and receive streaming video data (via Webm) to and from a connected peer
 
+### Position data & ranging
+- Stream position and heading vector with velocity to any interested parties
+- Identify self with XML describing avatar mesh(es) and behavior(s) via magnet links
+- Determine a maximum viewable range for free space vs. on a planet
+
+### Servers
+- Implement a server (planet)
+- Servers serve geometry, rules (eg: gravity) and event snapshots (destructables)
+- Servers connect the same way players do, but can also serve new players with IPs of "nearby" players to facilitate faster login
+
 ### 3D engine
 - Implement a basic 3D engine that can draw entities using built-in meshes and materials
 - Implement an asynchronous movement system using data from connected peers
